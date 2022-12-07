@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>
+Sonic Adventure Online - Hints - Sonic
+</title>
+<meta name="x-uirequest" content="urlbaroff">
+		<script LANGUAGE = "JavaScript">
+
+<!--
+
+       
+
+        if (document.images) {
+
+                  
+
+            img1on = new Image(); 
+
+            img1on.src = "../sadisk/button_back_on.gif";   
+
+            img2on = new Image();
+
+            img2on.src = "../images/button_next_on.gif";
+            
+            img3on = new Image(); 
+
+            img3on.src = "../sadisk/sshot_boss_e101k_5.gif";
+
+
+
+
+
+            img1off = new Image(); 
+
+            img1off.src = "../sadisk/button_back.gif"; 
+
+            img2off = new Image(); 
+
+            img2off.src = "../images/button_next.gif";
+
+            img3off = new Image(); 
+
+            img3off.src = "../sadisk/blank_dot.gif";
+
+
+              
+
+        }
+
+
+
+
+
+function imgOn(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "on.src");
+			
+			
+
+
+        }
+
+}
+
+
+
+
+
+function imgOff(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "off.src");
+
+			
+
+
+        }
+
+}
+
+
+    function switcheroo(imagename,newimage){
+           if (document.images) {
+             eval("document."+imagename+".src=\""+newimage+"\";");
+           }
+}
+
+// -->
+
+</script>
+<EMBED SRC="http://www.sonic-adventure.com/sadisk/sonicadv/bosse101.mp3" AUTOSTART=TRUE LOOP=TRUE WIDTH=0 HEIGHT=0></EMBED>
+</head>
+<body x-marginleft=0 x-margintop=0   bgcolor="#ffffff" link="#0000ff"  background="../sadisk/bg_hints_e102.gif" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0>
+<table cellspacing=0 cellpadding=0 border=0 width=600>
+<tr>
+<td align=left valign=top width=250>
+<img src="../sadisk/blank_dot.gif" width=1 height=125 border=0 alt=""><br><img src="../sadisk/blank_dot.gif" width=20 height=1 border=0 alt=""><img src="../sadisk/blank_dot.gif" width=200 height=150 border=0 alt="" name="screen"><img src="../sadisk/blank_dot.gif" width=5 height=1 border=0 alt="">
+</td>
+<td align=left valign=top width=340>
+<img src="../sadisk/blank_dot.gif" width=1 height=125 border=0 alt="">
+<table cellspacing=0 cellpadding=0 border=0 width=340>
+<tr>
+<td align=left valign=top width=1>
+<img src="../sadisk/blank_dot.gif" width=1 height=281 border=0 alt="">
+</td>
+<td align=left valign=top width=339>
+<font color="#0000cc"><b>E-101 BETA<p>Battle Tactics<br>
+</b></font>
+Precisely and methodically
+<a href="new_e101_5.html#" onmouseOver="switcheroo('screen','../sadisk/sshot_boss_e101k_5.gif');
+return true" onmouseOut="switcheroo('screen','../sadisk/blank_dot.gif');
+return true">fire one round at a time</a> each time E-101 
+Ver. 2 charges at Gamma. 
+Don't forget that there's a time limit so it's
+important to be calm and quickly pick up 
+on E-101's movement patterns! 
+
+</td>
+</tr>
+<td align=left valign=top width=340 colspan=2>
+<a href="new_e101_4.html"  onMouseOver="imgOn('img1')" onMouseOut="imgOff('img1')"><img src="../sadisk/button_back.gif" width=81 height=24 border=0 name="img1" alt=""></a><img src="../sadisk/blank_dot.gif" width=175 height=1 border=0 alt=""><a href="../hints_e102_menu_100.html"  onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img src="../images/button_next.gif" width=81 height=24 border=0 name="img2" alt=""></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+</body>
+</html>

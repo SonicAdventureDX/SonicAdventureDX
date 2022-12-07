@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>
+Sonic Adventure Online - Hints
+</title>
+<meta name="x-uirequest" content="urlbaroff">
+<script LANGUAGE = "JavaScript">
+
+<!--
+
+       
+
+        if (document.images) {
+
+                  
+
+            img1on = new Image(); 
+
+            img1on.src = "sadisk/button_updates_on.gif";   
+
+            img2on = new Image();
+
+            img2on.src = "sadisk/button_community_on.gif";
+            
+            img3on = new Image(); 
+
+            img3on.src = "sadisk/button_hints_on.gif";
+
+            img4on = new Image();
+
+            img4on.src = "sadisk/button_downloads_on.gif";
+
+            img5on = new Image();
+
+            img5on.src = "sadisk/button_help_on.gif";
+			
+            img10on = new Image();
+
+            img10on.src = "images/button_chat_on.gif";
+
+
+
+
+
+            img1off = new Image(); 
+
+            img1off.src = "sadisk/button_updates.gif"; 
+
+            img2off = new Image(); 
+
+            img2off.src = "sadisk/button_community.gif";
+
+            img3off = new Image(); 
+
+            img3off.src = "sadisk/button_hints.gif";
+
+            img4off = new Image(); 
+
+            img4off.src = "sadisk/button_downloads.gif"; 
+
+            img5off = new Image(); 
+
+            img5off.src = "sadisk/button_help.gif";  
+			
+            img10off = new Image(); 
+
+            img10off.src = "images/button_chat.gif";    
+
+              
+
+        }
+
+
+
+
+
+function imgOn(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "on.src");
+			
+			
+
+
+        }
+
+}
+
+
+
+
+
+function imgOff(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "off.src");
+
+			
+
+
+        }
+
+}
+
+
+
+// -->
+
+</script>
+<!-- bgsound src="sadisk/sonicadv/charactr.mp3" LOOP=INFINITE -->
+<EMBED SRC="http://www.sonic-adventure.com/sadisk/sonicadv/charactr.mp3" AUTOSTART=TRUE LOOP=TRUE WIDTH=0 HEIGHT=0></EMBED>
+</head>
+<body x-marginleft=0 x-margintop=0 background="sadisk/bg_main.gif" bgcolor="#000000" marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 border=0 width=600>
+<tr>
+<td align=left valign=top width=120>
+<img src="sadisk/blank_dot.gif" width=1 height=20 border=0 alt=""><br><img src="sadisk/button_sonicadv.gif" width=120 height=65 border=0 alt=""><br>
+<a href="updates.html" onMouseOver="imgOn('img1')" onMouseOut="imgOff('img1')"><img src="sadisk/button_updates.gif" width=120 height=35 border=0 name="img1" alt=""></a><br><a href="chat.html"  onMouseOver="imgOn('img10')" onMouseOut="imgOff('img10')"><img src="images/button_chat.gif" width=120 height=35 border=0 name="img10" alt=""></a><br><a href="community.html" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img src="sadisk/button_community.gif" width=120 height=35 border=0 name="img2" alt=""></a><br><img src="sadisk/button_hints_click.gif" width=120 height=35 border=0 name="img3" alt=""><br><a href="support.html"  onMouseOver="imgOn('img5')" onMouseOut="imgOff('img5')"><img src="sadisk/button_help.gif" width=120 height=35 border=0 name="img5" alt=""></a>
+</td>
+<td align=left valign=top width=480>
+<table cellspacing=0 cellpadding=0 border=0 width=500>
+<tr>
+<td align=left valign=top width=20>
+<br>&nbsp;<br>
+</td>
+<td align=left valign=top width=460>
+<center>
+<img src="sadisk/title_tactical_info.gif" width=355 height=85 border=0 alt=""><br>
+Click on a character or item below.<p>
+<table cellspacing=0 cellpadding=0 border=0 width=262>
+<tr>
+                  <td align=left valign=top width=262> <img src="sadisk/tactical_info.gif" width=262 height=243 border=0 usemap="#hintmap"><br><a href="beginners.html"><img src="sadisk/button_beginners.gif" width=262 height=41 border=0></a>
+</td>
+</tr>
+</table>
+</center>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<map name="hintmap">
+  <area shape="rect" coords="178,164,261,241" href="map_ss_main.html">
+  <area shape="rect" coords="90,165,173,241" href="hints_minigame.html">
+  <area shape="rect" coords="1,164,84,241" href="hints_chao.html">
+  <area shape="rect" coords="178,83,261,160" href="hints_big.html">
+  <area shape="rect" coords="90,83,173,160" href="hints_amy.html">
+  <area shape="rect" coords="1,83,85,160" href="hints_e102.html">
+  <area shape="rect" coords="178,0,261,77" href="hints_knuckles.html">
+  <area shape="rect" coords="90,0,173,77" href="hints_tails.html">
+  <area shape="rect" coords="1,0,85,77" href="hints_sonic.html">  
+</map>
+</body>
+</html>

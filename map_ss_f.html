@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>
+Sonic Adventure Online - Hints
+</title>
+<meta name="x-uirequest" content="urlbaroff">
+<script LANGUAGE = "JavaScript">
+
+<!--
+
+       
+
+        if (document.images) {
+
+                  
+
+            img1on = new Image(); 
+
+            img1on.src = "sadisk/map_button_ss_on.gif";   
+
+            img2on = new Image();
+
+            img2on.src = "sadisk/map_button_mr_on.gif";
+            
+            img3on = new Image(); 
+
+            img3on.src = "sadisk/map_button_ec1_on.gif";
+
+            img4on = new Image();
+
+            img4on.src = "sadisk/map_button_ec2_on.gif";
+
+            img5on = new Image();
+
+            img5on.src = "sadisk/map_button_main_on.gif";
+			
+            img6on = new Image(); 
+
+            img6on.src = "sadisk/button_boards_on.gif";   
+
+
+
+
+
+            img1off = new Image(); 
+
+            img1off.src = "sadisk/map_button_ss.gif"; 
+
+            img2off = new Image(); 
+
+            img2off.src = "sadisk/map_button_mr.gif";
+
+            img3off = new Image(); 
+
+            img3off.src = "sadisk/map_button_ec1.gif";
+
+            img4off = new Image(); 
+
+            img4off.src = "sadisk/map_button_ec2.gif"; 
+
+            img5off = new Image(); 
+
+            img5off.src = "sadisk/map_button_main.gif";  
+
+            img6off = new Image(); 
+
+            img6off.src = "sadisk/button_boards.gif"; 
+
+          
+
+        }
+
+
+
+
+
+function imgOn(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "on.src");
+			
+			
+
+
+        }
+
+}
+
+
+
+
+
+function imgOff(imgName) {
+
+        if (document.images) {
+
+            document[imgName].src = eval(imgName + "off.src");
+
+			
+
+
+        }
+
+}
+
+
+
+// -->
+
+</script>
+<!-- BGSOUND src="sadisk/sonicadv/s_square.mp3" LOOP=INFINITE -->
+<EMBED SRC="http://www.sonic-adventure.com/sadisk/sonicadv/s_square.mp3" AUTOSTART=TRUE LOOP=TRUE WIDTH=0 HEIGHT=0></EMBED>
+</head>
+<body x-marginleft=0 x-margintop=0  background="sadisk/bg_map.gif" bgcolor="#000000" marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+<center>
+<table cellspacing=0 cellpadding=0 border=0 width=590>
+<tr>
+<td align=center valign=top width=590>
+<img src="sadisk/title_map_ss.gif" width=590 height=90 border=0 alt=""><br>
+        <img src="sadisk/map_ss_f.gif" width=275 height=320 border=0 alt=""><img src="sadisk/map_ss_f_copy.gif" width=315 height=320 border=0 alt="" name="mapf" usemap="#mapfff"><br>
+        <img src="sadisk/map_button_ss_click.gif" width=125 height=33 border=0 alt="" name="img1"><a href="map_mr_main.html"  onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img src="sadisk/map_button_mr.gif" width=120 height=33 border=0 alt="" name="img2"></a><a href="map_ec1_main.html"  onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><img src="sadisk/map_button_ec1.gif" width=120 height=33 border=0 alt="" name="img3"></a><a href="map_ec2_main.html"  onMouseOver="imgOn('img4')" onMouseOut="imgOff('img4')"><img src="sadisk/map_button_ec2.gif" width=120 height=33 border=0 alt="" name="img4"></a><a href="hints.html"  onMouseOver="imgOn('img5')" onMouseOut="imgOff('img5')"><img src="sadisk/map_button_main.gif" width=105 height=33 border=0 alt="" name="img5"></a>
+</td>
+</tr>
+</table>
+</center>
+<map name="ss_main_map">
+  <area shape="circle" coords="90,267,30" href="map_ss_f.html">
+  <area shape="circle" coords="285,198,33" href="map_ss_b.html">
+  <area shape="circle" coords="228,153,33" href="map_ss_c.html">
+  <area shape="circle" coords="182,77,31" href="map_ss_e.html">
+  <area shape="circle" coords="104,76,32" href="map_ss_d.html">
+  <area shape="circle" coords="130,178,31" href="map_ss_a.html">  
+</map> <map name="map_ss_a">
+  <area shape="rect" coords="134,269,215,295" href="map_ss_main.html">  
+</map> <map name="map_ss_d">
+  <area shape="rect" coords="145,270,225,294" href="map_ss_main.html">  
+</map> <map name="map)d">
+  <area shape="rect" coords="166,269,244,294" href="map_ss_main.html">  
+</map> <map name="mapfff">
+  <area shape="rect" coords="215,270,295,294" href="map_ss_main.html">  
+</map>
+</body>
+</html>
